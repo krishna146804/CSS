@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+}
+.navbar{
+
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 5px;
+  background-color: pink;
+  padding:3px 2ps;
+}
+
+li{
+  border:1px solid aquamarine;
+  padding:4px 5px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+
+@media  screen and (max-width:600px){
+  ul{
+    flex-direction: column;
+  }
+  span{
+    width:100%;
+    text-align: center;
+    display: block;
+  }
+
+}
